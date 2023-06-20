@@ -62,6 +62,26 @@ function Home() {
                 <span>Codeforces</span>
               </div>
             </a>
+            <a
+              href="https://www.codechef.com/users/jatin_192000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.iconInnerContainer}>
+                <Code size={30} />
+                <span>CodeChef</span>
+              </div>
+            </a>
+            <a
+              href="https://auth.geeksforgeeks.org/user/jatindhingradhingra99/practice"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.iconInnerContainer}>
+                <Code size={30} />
+                <span>GFG</span>
+              </div>
+            </a>
           </div>
         </div>
         <div className={styles.imageContainer}>
