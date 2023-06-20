@@ -218,7 +218,7 @@ export let projects = [
     button: {
       viewCodeUrl:
         'https://github.com/jatin-dhingra/DATA_STRUCTURE_ALGORITHMS',
-      viewProjectUrl: 'https://github.com/jatin-dhingra/DATA_STRUCTURE_ALGORITHMS',
+      viewProjectUrl: 'https://leetcode.com/jatin_dhingra/',
     },
     technologyUsed: [
       { name: 'C++', img: Cppsvg },
