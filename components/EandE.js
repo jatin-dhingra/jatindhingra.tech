@@ -52,7 +52,7 @@ function EandE() {
           </Timeline.Item>
 
           <Timeline.Item
-            title="Software Developer Intern"
+            title="Front-End Developer Intern"
             bulletSize={50}
             bullet={<Building size={25} />}
             className={styles.timelineItem}
