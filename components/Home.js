@@ -3,13 +3,13 @@ import React from 'react'
 import Image from 'next/image'
 import profilePic from '../public/jatin.jpg'
 import styles from '../styles/Home.module.scss'
-import Typewriter from 'typewriter-effect/dist/core';
 import { ActionIcon } from '@mantine/core'
 import {
   BrandGithub,
   BrandLinkedin,
   Code,
 } from 'tabler-icons-react'
+import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
@@ -18,8 +18,14 @@ function Home() {
         <div className={styles.textContainer}>
           <h3>Hey there, I am </h3>
           <h1>Jatin Dhingra...</h1>
-          <h2>FullStack Developer, Competitive Programmer</h2>
-          
+          <h2><Typewriter
+            options={{
+              strings: ['FullStack Developer and Competitive Programmer'],
+              autoStart: true,
+              loop: true,
+              
+            }}
+          /></h2>
           <div className={styles.iconContainer}>
             <a
               href="https://github.com/jatin-dhingra"
@@ -85,6 +91,7 @@ function Home() {
           </div>
         </div>
         <div className={styles.imageContainer}>
+         
           <Image
             className={styles.profilepic}
             src={profilePic}
@@ -97,6 +104,7 @@ function Home() {
             layout="responsive"
             priority
           />
+          
         </div>
       </div>
     </div>

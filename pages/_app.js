@@ -8,6 +8,7 @@ import {
   ColorScheme,
 } from '@mantine/core'
 import { NotificationsProvider } from '@mantine/notifications'
+import Typewriter from 'typewriter-effect/dist/core';
 
 import '../styles/globals.scss'
 
