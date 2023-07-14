@@ -8,7 +8,7 @@ function EandE() {
       <div className={styles.timelineContainer}>
         <Timeline lineWidth={3} radius="md">
 
-          <Timeline.Item
+          {/* <Timeline.Item
             title="Software Developer Engineer"
             bulletSize={50}
             bullet={<Building size={25} />}
@@ -20,7 +20,7 @@ function EandE() {
             <Text size="md" mt={4}>
               July 2023 – Present
             </Text>
-          </Timeline.Item>
+          </Timeline.Item> */}
 
           <Timeline.Item
             title="Software Developer Intern"
@@ -32,7 +32,7 @@ function EandE() {
               Amdocs, Gurgaon
             </Text>
             <Text size="md" mt={4}>
-              January 2023 – June 2023
+              January 2023 – July 2023
             </Text>
           </Timeline.Item>
           
