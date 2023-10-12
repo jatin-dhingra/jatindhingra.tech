@@ -21,6 +21,19 @@ function EandE() {
               July 2023 – Present
             </Text>
           </Timeline.Item> */}
+          <Timeline.Item
+            title="Software Developer"
+            bulletSize={50}
+            bullet={<Building size={25} />}
+            className={styles.timelineItem}
+          >
+            <Text color="dimmed" size="md">
+              Amdocs, Gurgaon
+            </Text>
+            <Text size="md" mt={4}>
+              August 2023 – Present
+            </Text>
+          </Timeline.Item>
 
           <Timeline.Item
             title="Software Developer Intern"
